@@ -75,7 +75,7 @@ footer {
   padding-top: 2rem;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .carousel-caption {
     top: 30%;
   }
