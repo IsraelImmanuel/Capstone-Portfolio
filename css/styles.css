@@ -75,6 +75,13 @@ footer {
   padding-top: 2rem;
 }
 
+.expand {
+  transition: all .2s ease-in-out;
+}
+
+.expand:hover {
+  transform: scale(1.1);
+}
 @media (min-width: 320px) {
   .carousel-caption {
     top: 30%;
